@@ -1,0 +1,24 @@
+﻿<Page x:Class="JewelryShop.Pages.SalesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:JewelryShop.Pages"
+      mc:Ignorable="d" 
+      Height="450" Width="800"
+      Title="Продажи">
+
+    <DockPanel Margin="10">
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="0,0,0,10">
+            <Button Content="Новая продажа" Click="AddSale_Click" />
+        </StackPanel>
+
+        <DataGrid x:Name="SalesGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Дата" Binding="{Binding SaleDate}" Width="150" />
+                <DataGridTextColumn Header="Покупатель" Binding="{Binding Customer}" Width="*" />
+                <DataGridTextColumn Header="Сумма" Binding="{Binding Total}" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Page>
