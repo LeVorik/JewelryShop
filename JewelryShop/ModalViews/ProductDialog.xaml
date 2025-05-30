@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JewelryShop.ModalViews"
-        Title="Товар" Height="500" Width="400" WindowStartupLocation="CenterOwner" Background="#f6f9fc">
+        Title="Товар" Height="550" Width="400" WindowStartupLocation="CenterOwner" Background="#f6f9fc">
     <Border Padding="20" Background="White" BorderBrush="#e0e0e0" BorderThickness="1">
         <StackPanel>
             <TextBlock Text="Наименование" Margin="0,0,0,5"/>
@@ -26,8 +26,8 @@
             <TextBox x:Name="PriceBox"/>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
-                <Button Content="Сохранить" Width="100"/>
-                <Button Content="Отмена" Width="100" Background="#cccccc"/>
+                <Button Content="Сохранить" Width="100" Click="Save_Click"/>
+                <Button Content="Отмена" Width="100" Background="#cccccc" Click="Cancel_Click"/>
             </StackPanel>
         </StackPanel>
     </Border>

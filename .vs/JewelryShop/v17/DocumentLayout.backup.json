@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Projects\\JewelryShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|c:\\projects\\jewelryshop\\jewelryshop\\pages\\salespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|solutionrelative:jewelryshop\\pages\\salespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|c:\\projects\\jewelryshop\\jewelryshop\\modalviews\\productdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|solutionrelative:jewelryshop\\modalviews\\productdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|c:\\projects\\jewelryshop\\jewelryshop\\pages\\salespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|solutionrelative:jewelryshop\\pages\\salespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|c:\\projects\\jewelryshop\\jewelryshop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|solutionrelative:jewelryshop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|c:\\projects\\jewelryshop\\jewelryshop\\modalviews\\productdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72DC47CF-DD3A-4734-86C8-D317A6FCF253}|JewelryShop\\JewelryShop.csproj|solutionrelative:jewelryshop\\modalviews\\productdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SalesPage.xaml.cs",
-              "DocumentMoniker": "C:\\Projects\\JewelryShop\\JewelryShop\\Pages\\SalesPage.xaml.cs",
-              "RelativeDocumentMoniker": "JewelryShop\\Pages\\SalesPage.xaml.cs",
-              "ToolTip": "C:\\Projects\\JewelryShop\\JewelryShop\\Pages\\SalesPage.xaml.cs",
-              "RelativeToolTip": "JewelryShop\\Pages\\SalesPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\JewelryShop\\JewelryShop\\ModalViews\\ProductDialog.xaml.cs",
+              "RelativeDocumentMoniker": "JewelryShop\\ModalViews\\ProductDialog.xaml.cs",
+              "ToolTip": "C:\\Projects\\JewelryShop\\JewelryShop\\ModalViews\\ProductDialog.xaml.cs",
+              "RelativeToolTip": "JewelryShop\\ModalViews\\ProductDialog.xaml.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowFUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:52:51.009Z",
+              "WhenOpened": "2025-05-30T11:31:49.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SalesPage.xaml",
-              "DocumentMoniker": "C:\\Projects\\JewelryShop\\JewelryShop\\Pages\\SalesPage.xaml",
-              "RelativeDocumentMoniker": "JewelryShop\\Pages\\SalesPage.xaml",
-              "ToolTip": "C:\\Projects\\JewelryShop\\JewelryShop\\Pages\\SalesPage.xaml",
-              "RelativeToolTip": "JewelryShop\\Pages\\SalesPage.xaml",
+              "Title": "ProductDialog.xaml",
+              "DocumentMoniker": "C:\\Projects\\JewelryShop\\JewelryShop\\ModalViews\\ProductDialog.xaml",
+              "RelativeDocumentMoniker": "JewelryShop\\ModalViews\\ProductDialog.xaml",
+              "ToolTip": "C:\\Projects\\JewelryShop\\JewelryShop\\ModalViews\\ProductDialog.xaml",
+              "RelativeToolTip": "JewelryShop\\ModalViews\\ProductDialog.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-28T12:52:37.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Projects\\JewelryShop\\JewelryShop\\App.config",
-              "RelativeDocumentMoniker": "JewelryShop\\App.config",
-              "ToolTip": "C:\\Projects\\JewelryShop\\JewelryShop\\App.config",
-              "RelativeToolTip": "JewelryShop\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAADzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-28T12:48:58.295Z",
+              "WhenOpened": "2025-05-30T11:30:58.437Z",
               "EditorCaption": ""
             }
           ]
