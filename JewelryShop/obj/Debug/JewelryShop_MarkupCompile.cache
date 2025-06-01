@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Projects\JewelryShop\JewelryShop\obj\Debug\
+D:\GitHub\JewelryShop\JewelryShop\obj\Debug\
 JewelryShop
 none
 false
 DEBUG;TRACE
-C:\Projects\JewelryShop\JewelryShop\App.xaml
-71574806362
+D:\GitHub\JewelryShop\JewelryShop\App.xaml
+8-1894278257
 4305085005
-19-534474113
-18730623447
-MainWindow.xaml;ModalViews\CustomerDialog.xaml;ModalViews\ProductDialog.xaml;ModalViews\SaleDialog.xaml;Pages\CustomerPage.xaml;Pages\ProductPage.xaml;Pages\SalesPage.xaml;
+21-892620736
+181895856735
+MainWindow.xaml;ModalViews\CustomerDialog.xaml;ModalViews\ProductDialog.xaml;ModalViews\SaleDialog.xaml;Pages\AuthPage.xaml;Pages\CustomerPage.xaml;Pages\ProductPage.xaml;Pages\SalesPage.xaml;
 
 False
 

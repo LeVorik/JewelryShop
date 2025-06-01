@@ -9,10 +9,33 @@
     <DockPanel>
         <!-- Верхняя панель навигации -->
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Background="#4a90e2" Height="50">
-            <Button Content="Товары" Click="Products_Click" Margin="10,5" Padding="10,0" FontSize="14" Foreground="White" Background="Transparent" BorderBrush="Transparent"/>
-            <Button Content="Покупатели" Click="Customers_Click" Margin="10,5" Padding="10,0" FontSize="14" Foreground="White" Background="Transparent" BorderBrush="Transparent"/>
-            <Button Content="Продажи" Click="Sales_Click" Margin="10,5" Padding="10,0" FontSize="14" Foreground="White" Background="Transparent" BorderBrush="Transparent"/>
-            <Button Content="Выход" Click="Exit_Click" Margin="10,5" Padding="10,0" FontSize="14" Foreground="White" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Right"/>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Background="#4a90e2" Height="50">
+                <Button x:Name="ProductsButton" Content="Товары" Click="Products_Click"
+            Margin="10,5" Padding="10,0" FontSize="14"
+            Foreground="White" Background="Transparent"
+            BorderBrush="Transparent" Visibility="Collapsed"/>
+
+                <Button x:Name="CustomersButton" Content="Покупатели" Click="Customers_Click"
+            Margin="10,5" Padding="10,0" FontSize="14"
+            Foreground="White" Background="Transparent"
+            BorderBrush="Transparent" Visibility="Collapsed"/>
+
+                <Button x:Name="SalesButton" Content="Продажи" Click="Sales_Click"
+            Margin="10,5" Padding="10,0" FontSize="14"
+            Foreground="White" Background="Transparent"
+            BorderBrush="Transparent" Visibility="Collapsed"/>
+
+                <Button x:Name="AuthButton" Content="Авторизация" Click="Auth_Click"
+            Margin="390,5,0,5" Padding="10,0" FontSize="14"
+            Foreground="White" Background="Transparent"
+            BorderBrush="Transparent" HorizontalAlignment="Right"/>
+
+                <Button x:Name="ExitButton" Visibility="Hidden" Content="Выход" Click="Exit_Click"
+            Margin="-64,5,0,5" Padding="10,0" FontSize="14"
+            Foreground="White" Background="Transparent"
+            BorderBrush="Transparent" HorizontalAlignment="Right"/>
+            </StackPanel>
+
         </StackPanel>
 
         <!-- Контент -->

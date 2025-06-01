@@ -24,6 +24,19 @@ namespace JewelryShop.Pages
         public CustomerPage()
         {
             InitializeComponent();
+
+            if (gVars.cur_user.Role == "Администратор")
+            {
+                AddButton.Visibility = Visibility.Visible;
+                EditButton.Visibility = Visibility.Visible;
+                DelButton.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                AddButton.Visibility = Visibility.Hidden;
+                EditButton.Visibility = Visibility.Hidden;
+                DelButton.Visibility = Visibility.Hidden;
+            }
             LoadCustomers();
         }
         private void LoadCustomers()

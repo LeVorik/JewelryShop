@@ -39,6 +39,16 @@
     <Property Name="CustomerId" Type="int" Nullable="false" />
     <Property Name="SaleDate" Type="date" Nullable="false" />
   </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Role" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
   <Association Name="FK__SaleItems__Produ__403A8C7D">
     <End Role="Products" Type="Self.Products" Multiplicity="1" />
     <End Role="SaleItems" Type="Self.SaleItems" Multiplicity="*" />
@@ -80,6 +90,7 @@
     <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="SaleItems" EntityType="Self.SaleItems" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Sales" EntityType="Self.Sales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
     <AssociationSet Name="FK__SaleItems__Produ__403A8C7D" Association="Self.FK__SaleItems__Produ__403A8C7D">
       <End Role="Products" EntitySet="Products" />
       <End Role="SaleItems" EntitySet="SaleItems" />

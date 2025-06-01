@@ -45,6 +45,16 @@
     <NavigationProperty Name="Customers" Relationship="Self.FK__Sales__CustomerI__3C69FB99" FromRole="Sales" ToRole="Customers" />
     <NavigationProperty Name="SaleItems" Relationship="Self.FK__SaleItems__SaleI__3F466844" FromRole="Sales" ToRole="SaleItems" />
   </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Role" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
   <Association Name="FK__Sales__CustomerI__3C69FB99">
     <End Role="Customers" Type="Self.Customers" Multiplicity="1" />
     <End Role="Sales" Type="Self.Sales" Multiplicity="*" />
@@ -86,6 +96,7 @@
     <EntitySet Name="Products" EntityType="Self.Products" />
     <EntitySet Name="SaleItems" EntityType="Self.SaleItems" />
     <EntitySet Name="Sales" EntityType="Self.Sales" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
     <AssociationSet Name="FK__Sales__CustomerI__3C69FB99" Association="Self.FK__Sales__CustomerI__3C69FB99">
       <End Role="Customers" EntitySet="Customers" />
       <End Role="Sales" EntitySet="Sales" />

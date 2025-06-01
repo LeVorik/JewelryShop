@@ -23,7 +23,17 @@ namespace JewelryShop
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new Pages.ProductPage()); // стартовая страница — Товары
+            gVars.MainFrame = MainFrame;
+            gVars.MainWindow = this;
+            MainFrame.Navigate(new Pages.AuthPage());
+        }
+        public void SetAuthorizedUI(bool isAuthorized)
+        {
+            ProductsButton.Visibility = isAuthorized ? Visibility.Visible : Visibility.Collapsed;
+            CustomersButton.Visibility = isAuthorized ? Visibility.Visible : Visibility.Collapsed;
+            SalesButton.Visibility = isAuthorized ? Visibility.Visible : Visibility.Collapsed;
+            ExitButton.Visibility = isAuthorized ? Visibility.Visible : Visibility.Hidden;
+            AuthButton.Visibility = isAuthorized ? Visibility.Hidden : Visibility.Visible;
         }
 
         private void Products_Click(object sender, RoutedEventArgs e)
@@ -43,7 +53,14 @@ namespace JewelryShop
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+            gVars.cur_user = null;
+            SetAuthorizedUI(false);
+            MainFrame.Navigate(new Pages.AuthPage());
+        }
+
+        private void Auth_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Pages.AuthPage());
         }
     }
 }

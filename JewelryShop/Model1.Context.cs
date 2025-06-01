@@ -29,5 +29,6 @@ namespace JewelryShop
         public virtual DbSet<Products> Products { get; set; }
         public virtual DbSet<SaleItems> SaleItems { get; set; }
         public virtual DbSet<Sales> Sales { get; set; }
+        public virtual DbSet<Users> Users { get; set; }
     }
 }

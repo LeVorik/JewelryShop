@@ -9,9 +9,9 @@
 
     <DockPanel Margin="10">
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Margin="0,0,0,10">
-            <Button Content="Добавить" Click="Add_Click" Margin="0,0,10,0"/>
-            <Button Content="Редактировать" Click="Edit_Click" Margin="0,0,10,0"/>
-            <Button Content="Удалить" Click="Delete_Click"/>
+            <Button x:Name="AddButton" Content="Добавить" Click="Add_Click" Margin="0,0,10,0"/>
+            <Button x:Name="EditButton" Content="Редактировать" Click="Edit_Click" Margin="0,0,10,0"/>
+            <Button x:Name="DelButton" Content="Удалить" Click="Delete_Click"/>
         </StackPanel>
 
         <DataGrid x:Name="ProductsGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single">
